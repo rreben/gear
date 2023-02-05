@@ -3,6 +3,7 @@
 
 ## Project structure
 
+```ascii
 gear/
 ├── gear_backend/
 │   ├── app/
@@ -38,6 +39,8 @@ gear/
 ├── Dockerfile
 ├── docker-compose.yml
 └── README.md
+```
+
 
 In this structure, the backend is located in the `backend` folder and contains the Flask application code, while the frontend is located in the `frontend` folder and contains a React application. The `requirements.txt` file in the backend folder lists all the required Python packages, and the `package.json` file in the frontend folder lists all the required npm packages. The `config.py` file contains configuration settings for the Flask application. The `run.py` file is the entry point for starting the Flask application. The public folder in the frontend folder contains static files, and the src folder contains the React components and other JavaScript code. The Dockerfile and `docker-compose.yml` files can be used to containerize the application, and the `.gitignore` file lists files and directories that should be ignored by Git.
 
